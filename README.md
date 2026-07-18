@@ -31,7 +31,7 @@ DHFL consists of three main components:
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/dhfl.git
+git clone https://github.com/Pacsss/DHFL-for-Segmentation.git
 cd dhfl
 pip install -r requirements.txt
 ```
