@@ -24,7 +24,7 @@ DHFL consists of three main components:
 2. The Error-Aware Residual Adapter - where it recieves the encoded feature maps of the base model and the computed error map $E$. It is encoded and concatenated with normalized feature maps and where the $\Delta = f(F, E)$ is represented. This is where the corrected features become as $F' = F + \Delta$;
 3. The Error Gate - which produces a scalar that either lets the adapter freely update or suppress it completely. It is responsible in producing small updates when there are small errors, large updates when there are stronger corrections or errors, and producing no update when there is no error.
 
-![DHFL framework architecture](assset\dhfl_architecture_adapter.png)
+![DHFL framework architecture](assets/dhfl_architecture_adapter.png)
 
 ---
 
